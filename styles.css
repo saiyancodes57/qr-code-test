@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e2f0;
+}
+
+#qr-code-container {
+  width: 20rem;
+  height: 499px;
+  padding: 1rem 1rem 2.5rem 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+img,
+#qr-code-container {
+  border-radius: 1.25rem;
+}
+
+.main-text {
+  margin: 0 1rem;
+}
+
+h1 {
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1f3251;
+  line-height: 120%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: #68778d;
+  line-height: 140%;
+}
